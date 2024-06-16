@@ -1,0 +1,11 @@
+name: BlockLagbackAPI
+main: net.chocorot.BlockLagbackAPI.Main
+version: ${project.version}
+author: Chocorot
+commands:
+  ping:
+    description: For testing.
+    permission: op
+  settings:
+    description: For setting.
+    permission: op
