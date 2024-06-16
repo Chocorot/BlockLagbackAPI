@@ -1,6 +1,6 @@
 name: BlockLagbackAPI
 main: net.chocorot.BlockLagbackAPI.Main
-version: ${project.version}
+version: 1.0.0
 author: Chocorot
 commands:
   ping:
