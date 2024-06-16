@@ -3,9 +3,6 @@ main: net.chocorot.BlockLagbackAPI.Main
 version: 1.0.0
 author: Chocorot
 commands:
-  ping:
-    description: For testing.
-    permission: op
   settings:
     description: For setting.
     permission: op

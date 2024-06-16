@@ -1,7 +1,5 @@
 package net.chocorot.BlockLagbackAPI;
 
-import com.google.common.math.Stats;
-import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -21,7 +19,6 @@ public class Main extends JavaPlugin {
 
         this.getServer().getPluginManager().registerEvents(new BlockPlacementListener(), this);
 
-        this.getCommand("ping").setExecutor(new Ping());
         this.getCommand("settings").setExecutor(new SettingCommand());
 
         // YAML file
